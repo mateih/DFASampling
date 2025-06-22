@@ -1,0 +1,41 @@
+// produced with flexfringe // 
+digraph DFA {
+	0 [label="root" shape=box];
+		I -> 0;
+	0 [ label="0 #134 fin: 1:6 , 
+ path: 1:63 , 0:65 , " , style=filled, fillcolor="tomato", width=1.77585, height=1.77585, penwidth=4.90527];
+		0 -> 1 [label="0 " , penwidth=4.90527 ];
+		0 -> 72 [label="1 " , penwidth=4.90527 ];
+	1 [ label="1 #99 fin: 0:8 , 
+ path: 1:44 , 0:47 , " , style=filled, fillcolor="tomato", width=1.72369, height=1.72369, penwidth=4.60517];
+		1 -> 2 [label="0 " , penwidth=4.60517 ];
+		1 -> 0 [label="1 " , penwidth=4.60517 ];
+	72 [ label="72 #103 fin: 1:7 , 
+ path: 1:46 , 0:50 , " , style=filled, fillcolor="tomato", width=1.73066, height=1.73066, penwidth=4.64439];
+		72 -> 12 [label="0 " , penwidth=4.64439 ];
+		72 -> 72 [label="1 " , penwidth=4.64439 ];
+	2 [ label="2 #82 fin: 1:4 , 
+ path: 1:38 , 0:40 , " , style=filled, fillcolor="tomato", width=1.68988, height=1.68988, penwidth=4.41884];
+		2 -> 3 [label="0 " , penwidth=4.41884 ];
+		2 -> 39 [label="1 " , penwidth=4.41884 ];
+	3 [ label="3 #102 fin: 1:7 , 
+ path: 1:54 , 0:41 , " , style=filled, fillcolor="tomato", width=1.72895, height=1.72895, penwidth=4.63473];
+		3 -> 3 [label="0 " , penwidth=4.63473 ];
+		3 -> 4 [label="1 " , penwidth=4.63473 ];
+	39 [ label="39 #87 fin: 0:3 , 
+ path: 1:38 , 0:46 , " , style=filled, fillcolor="tomato", width=1.70062, height=1.70062, penwidth=4.47734];
+		39 -> 0 [label="0 " , penwidth=4.47734 ];
+		39 -> 75 [label="1 " , penwidth=4.47734 ];
+	4 [ label="4 #53 fin: 0:2 , 
+ path: 1:27 , 0:24 , " , style=filled, fillcolor="tomato", width=1.60723, height=1.60723, penwidth=3.98898];
+		4 -> 39 [label="0 " , penwidth=3.98898 ];
+		4 -> 3 [label="1 " , penwidth=3.98898 ];
+	75 [ label="75 #39 fin: 0:2 , 
+ path: 1:17 , 0:20 , " , style=filled, fillcolor="tomato", width=1.54519, height=1.54519, penwidth=3.68888];
+		75 -> 12 [label="0 " , penwidth=3.68888 ];
+		75 -> 39 [label="1 " , penwidth=3.68888 ];
+	12 [ label="12 #70 fin: 1:1 , 
+ path: 1:33 , 0:36 , " , style=filled, fillcolor="tomato", width=1.66064, height=1.66064, penwidth=4.26268];
+		12 -> 1 [label="0 " , penwidth=4.26268 ];
+		12 -> 2 [label="1 " , penwidth=4.26268 ];
+}

@@ -1,0 +1,53 @@
+// produced with flexfringe // 
+digraph DFA {
+	0 [label="root" shape=box];
+		I -> 0;
+	0 [ label="0 #57 fin: 0:1 , 
+ path: 1:30 , 0:26 , " , style=filled, fillcolor="tomato", width=1.62145, height=1.62145, penwidth=4.06044];
+		0 -> 1 [label="1 " , penwidth=4.06044 ];
+		0 -> 2 [label="0 " , penwidth=4.06044 ];
+	1 [ label="1 #156 fin: 1:4 , 
+ path: 1:92 , 0:60 , " , style=filled, fillcolor="tomato", width=1.80109, height=1.80109, penwidth=5.05625];
+		1 -> 1 [label="1 " , penwidth=5.05625 ];
+		1 -> 16 [label="0 " , penwidth=5.05625 ];
+	2 [ label="2 #118 fin: 1:5 , 
+ path: 1:67 , 0:46 , " , style=filled, fillcolor="tomato", width=1.75425, height=1.75425, penwidth=4.77912];
+		2 -> 34 [label="1 " , penwidth=4.77912 ];
+		2 -> 3 [label="0 " , penwidth=4.77912 ];
+	16 [ label="16 #145 fin: 1:6 , 
+ path: 1:85 , 0:54 , " , style=filled, fillcolor="tomato", width=1.78902, height=1.78902, penwidth=4.98361];
+		16 -> 985 [label="1 " , penwidth=4.98361 ];
+		16 -> 56 [label="0 " , penwidth=4.98361 ];
+	34 [ label="34 #139 fin: 0:6 , 
+ path: 1:88 , 0:45 , " , style=filled, fillcolor="tomato", width=1.78199, height=1.78199, penwidth=4.94164];
+		34 -> 57 [label="1 " , penwidth=4.94164 ];
+		34 -> 16 [label="0 " , penwidth=4.94164 ];
+	3 [ label="3 #114 fin: 0:4 , 
+ path: 1:57 , 0:53 , " , style=filled, fillcolor="tomato", width=1.74832, height=1.74832, penwidth=4.74493];
+		3 -> 7 [label="1 " , penwidth=4.74493 ];
+		3 -> 4 [label="0 " , penwidth=4.74493 ];
+	985 [ label="985 #261 fin: 0:10 , 
+ path: 1:151 , 0:100 , " , style=filled, fillcolor="tomato", width=1.88226, height=1.88226, penwidth=5.56834];
+		985 -> 985 [label="1 " , penwidth=5.56834 ];
+		985 -> 1158 [label="0 " , penwidth=5.56834 ];
+	56 [ label="56 #128 fin: 1:5 , 
+ path: 1:84 , 0:39 , " , style=filled, fillcolor="tomato", width=1.76812, height=1.76812, penwidth=4.85981];
+		56 -> 57 [label="1 " , penwidth=4.85981 ];
+		56 -> 985 [label="0 " , penwidth=4.85981 ];
+	57 [ label="57 #127 fin: 0:4 , 
+ path: 1:87 , 0:36 , " , style=filled, fillcolor="tomato", width=1.76679, height=1.76679, penwidth=4.85203];
+		57 -> 2 [label="1 " , penwidth=4.85203 ];
+		57 -> 56 [label="0 " , penwidth=4.85203 ];
+	7 [ label="7 #54 fin: 1:1 , 
+ path: 1:31 , 0:22 , " , style=filled, fillcolor="tomato", width=1.6109, height=1.6109, penwidth=4.00733];
+		7 -> 2 [label="1 " , penwidth=4.00733 ];
+		7 -> 34 [label="0 " , penwidth=4.00733 ];
+	4 [ label="4 #114 fin: 0:2 , 
+ path: 1:60 , 0:52 , " , style=filled, fillcolor="tomato", width=1.74832, height=1.74832, penwidth=4.74493];
+		4 -> 3 [label="1 " , penwidth=4.74493 ];
+		4 -> 34 [label="0 " , penwidth=4.74493 ];
+	1158 [ label="1158 #123 fin: 1:9 , 
+ path: 1:73 , 0:41 , " , style=filled, fillcolor="tomato", width=1.76135, height=1.76135, penwidth=4.82028];
+		1158 -> 4 [label="1 " , penwidth=4.82028 ];
+		1158 -> 1 [label="0 " , penwidth=4.82028 ];
+}

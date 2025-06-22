@@ -1,0 +1,34 @@
+{
+  "alphabet": [
+    "1",
+    "0"
+  ],
+  "edges": null,
+  "nodes": [
+    {
+      "data": {
+        "final_counts": {
+          "1": 8
+        },
+        "path_counts": {
+          "0": 114,
+          "1": 108
+        },
+        "total_final": 8,
+        "total_paths": 222
+      },
+      "id": 0,
+      "isblue": false,
+      "isred": true,
+      "issink": false,
+      "level": 0,
+      "size": 230,
+      "source": -1,
+      "trace": "0 0"
+    }
+  ],
+  "types": [
+    "1",
+    "0"
+  ]
+}
